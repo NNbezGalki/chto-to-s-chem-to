@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="logo/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
+  <link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Морокко</title>
+</head>
+
+<body>
+	<!-- Меню -->
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="logo/logo.svg" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+          <li><a href="tables.html">Каталог</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="phone">
+					<a href="tel:+79068833466">&#9742; +7 (906) 883-34-66</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Страница одной двери -->
+  <div class="door-template">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-lg-12">
+          <div class="door-gallery">
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/587808182759173.653308e1a2295.jpg" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/587808182759173.653308e1a2295.jpg" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/eb8cfd182759173.653308e1a48d1.jpg" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/eb8cfd182759173.653308e1a48d1.jpg" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/b77d49182759173.653308e1a6e72.jpg" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/b77d49182759173.653308e1a6e72.jpg" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/f880f6182759173.653308e1a601d.jpg" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/f880f6182759173.653308e1a601d.jpg" alt="название 1">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-12 door-description">
+          <h2>Морокко<span>Есть в наличии</span></h2>
+          <!-- <h2>Название <span>Под заказ</span></h2> -->
+          <p>  Придайте  интерьеру нотку восточной роскоши с  помощью этого небольшого столика "МОРОККО". <br>
+            <br>Круглая столешница, имитирующая  натуральный белый мрамор с  серыми прожилками,  создает атмосферу  изысканности и уюта. <br>
+            <br>Компактный размер  и  изящная  кованная  подставка  делают его идеальным выбором для небольших помещений.<br>
+            <br>Размеры: 60 см (диаметр) x 45 см (высота)<br>
+            <br>Материал: МДФ с  покрытием под мрамор,  металл<br>
+            <br>Цвет: Белый мрамор с  серыми прожилками,  черный (подставка)<br>
+            <br> Особенности: Легкая сборка,  противоскользящие накладки на ножках<br>
+        </p>
+          <h3>9 990 &#8381;</h3>
+		  <form>
+              <input type="text" placeholder="Имя"><br>
+              <input type="text" placeholder="Телефон"><br>
+              <textarea placeholder="Комментарий"></textarea><br>
+              <button class="btn">Заказать замер</button>
+          </form>
+          
+  <script src="js/baguetteBox.min.js" async></script>
+  <script>
+    window.addEventListener('load', function() {
+      // Галерея
+      // Документация 
+      // https://github.com/feimosi/baguetteBox.js
+      // Инициализация
+      baguetteBox.run('.door-gallery');
+    })
+  </script>
+</body>
+
+</html>

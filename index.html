@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мебельный для диплома</title>
+    <link rel="preload" href="fonts1/PlayfairDisplay-Bold.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts1/AvenirNext-Demi.woff" as="font" crossorigin="anonymous">
+    <link rel="preload" href="fonts1/AvenirNext-Regular.woff" as="font" crossorigin="anonymous">
+    <link rel="stylesheet" href="css1/fonts.css">
+    <link rel="stylesheet" href="css1/normalize.css">
+    <link rel="stylesheet" type="text/css" href="slick/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/css/slick-theme.css"/>
+    <link rel="stylesheet" href="css1/main_glavnaya.css">
+</head>
+<body>
+<div class="background-color"></div>
+<header>
+    <div class="header">
+        <div class="container">
+            <div class="header__body">
+                <div class="header_meniel">
+                    <a href="img1/Icon_logo.svg" class="header__logo">
+                        <img src="img1/Icon_logo.svg" alt="Callium">
+                    </a>
+                </div>
+                    <div class="header_burger">
+                        <ul class="menu">
+                            <p class="last-chance__name">
+                        <li><a href="index.html">Главная</a></li><br>
+                        <li><a href="tables.html">Столы</a></li><br>
+                        <li><a href="chair.html">Стулья</a></li><br>
+                        <li><a href="dekor.html">Декор</a></li><br>
+                        <li><a href="about.html">О&nbspнас</a></li><br>
+                        <li><a href="contacts.html">Контакты</a></li><br>
+                    </ul>
+                </p>
+                    <style>
+                    .header_burger {
+                        display: inline;
+                        left: 70%;
+                      }
+                    
+                      .menu {
+                        display: none;
+                        position:relative;
+                        top: 0%;
+                        left: 0%;
+                        width: 100%;
+                        height: 100%;
+                        color: #303032;
+                        background-color: transparent;
+                        font-size: 20px;
+                      }
+                    
+                      .menu.active {
+                        display: inline;
+                        left: 0%;
+                        color: #303032;
+                      }
+                      .menu li {
+                        display:inline;
+                        font-family: 'OpenSans-Regular', sans-serif;
+                        font-size: 14px;
+                        line-height: 19px;
+                        letter-spacing: 0.13em;
+                        color: #303032;
+                        text-transform: uppercase;
+                        text-decoration:#303032;
+                        padding: 30px 0px;  
+                        line-height: 37px;
+                        background-color: transparent;
+                      }  
+                     
+                    .header_burger.active span:nth-child(1) {
+                      transform: rotate(45deg);
+                      top: 9px;
+                      left: 0%;
+                    }
+                    
+                    .header_burger.active span:nth-child(2) {
+                      opacity: 0;
+                      left: 0%;
+                    }
+                    
+                    .header_burger.active span:nth-child(3) {
+                      transform: rotate(-45deg);
+                      bottom: 9px;
+                      left: 0%;
+                    }
+
+                </style>
+                    
+                    <script>
+                    const burger = document.querySelector('.header_burger');
+                    const menu = document.querySelector('.menu');
+                    
+                    burger.addEventListener('click', () => {
+                      burger.classList.toggle('active');
+                      menu.classList.toggle('active');
+                    });
+                    </script>
+                    </div>
+                    <nav class="header__menu">
+                        <ul class="header__list">
+                            <li><a href="tables.html" class="header__link">Столы</a></li>
+                            <li><a href="chair.html" class="header__link">Стулья</a></li>
+                            <li><a href="about.html" class="header__link">О&nbspнас</a></li>
+                            <li><a href="dekor.html" class="header__link">Декор</a></li>
+                            <li><a href="contacts.html" class="header__link">Контакты</a></li>
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main class="products">
+    <div class="container">
+        <div class="products-slider">
+            <div class="products-slider__flex">
+                <div class="products-slider__content">
+                    <h1>Немного Стульев</h1>
+                    <p class="products__name">Стул "Прибрежье"</p>
+                    <p class="products__price"><span class="products__price-sale">3800&#8381;</span></p>
+                    <a href="chair.html" <button class="products__button-buy">Купить</button></a>
+                </div>
+                <img src="img1/chair/7.png" width="250" height="500" alt="Кресло Антиква">
+            </div>
+            <div class="products-slider__flex">
+                <div class="products-slider__content">
+                    <h1>А также стулья</h1>
+                    <p class="products__name">Стул "Белый лист"</p>
+                    <p class="products__price"><span class="products__price-sale">3800&#8381;</span></p>
+                    <a href="chair.html" <button class="products__button-buy">Купить</button></a>
+                    
+                </div>
+                <img src="img1/chair/3.png" width="250" height="500"  alt="Кресло Антиква">
+            </div>
+            <div class="products-slider__flex">
+                <div class="products-slider__content">
+                    <h1>Фурнитура и декор</h1>
+                    <p class="products__name">Стенка "Ричард"</p>
+                    <p class="products__price"><span class="products__price-sale">6399&#8381;</span></p>
+                    <a href="dekor.html" <button class="products__button-buy">Купить</button></a>
+                </div>
+                <img src="img1/furniture/8.png" width="300" height="500" alt="Кресло Антиква">
+            </div>
+            <div class="products-slider__flex">
+                <div class="products-slider__content">
+                    <h1>Дизайнерские решения</h1><br><br><br><br>
+                    <p class="products__name">Кресло "Спайдер"</p>
+                    <p class="products__price"><span class="products__price-sale">5699&#8381;</span></p>
+                    <a href="chair.html" <button class="products__button-buy">Купить</button></a>
+                </div>
+                <img src="img1/chair/1.png" width="250" height="411" alt="Кресло Антиква">
+            </div>
+        </div>
+    </div>
+</main>
+<section class="news">
+    <div class="container">
+        <div class="news__flex">
+            <div class="news__flex-left">
+                <div class="news-item__item-flex">
+                    <h2 class="news-item__title">Новинки</h2>
+                </div>
+                <div class="news-item item-1">
+                    <img src="img1/furniture/4.png" width="150" height="200" alt="Стул Смеркается">
+                    <p class="news-item__name">Ваза "Полночь"</p>
+                    <p class="news-item__price">800 &#8381;</p>
+                </div>
+                <div class="news-item item-2">
+                    <img src="img1/ChandelierCloud.png" alt="Люстра Облако">
+                    <p class="news-item__name">Люстра "Облако"</p>
+                    <p class="news-item__price">1299 &#8381;</p>
+                </div>
+                <div class="news-item item-3">
+                    <img src="img1/furniture/2.png" width="150" height="200" alt="Стул Смеркается">
+                    <p class="news-item__name">Тумба "Древесный закат"</p>
+                    <p class="news-item__price">2500 &#8381;</p>
+                </div>
+            </div>
+            <div class="news__flex-right">
+                <div class="news-item item-4">
+                    <img src="img1/tables/2.jpeg" width="400" height="500" alt="Стул Белый шоколад">
+                    <p class="news-item__name">Табурет "Шоколадный сколиоз"</p>
+                    <p class="news-item__price">1200 &#8381;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="reviews">
+    <div class="container">
+        <div class="reviews-slider">
+            <div class="reviews-slider__flex">
+                <div class="reviews-slider__wrap">
+                </div>
+                <h3 class="reviews-slider__title">Татьяна</h3>
+                <p class="reviews-slider__subtitle">Частное лицо</p>
+                <p class="reviews-slider__description">«Добрый день ! не первый раз заказываю мебель в мебельном магазине для диплома Максима, персонал очень хороший , мебель качественная! Всем советую придти и сделать свой выбор именно в этом классном магазине )))»</p>
+            </div>
+            <div class="reviews-slider__flex">
+                <div class="reviews-slider__wrap">
+                </div>
+                <h3 class="reviews-slider__title">НАТАЛЬЯ</h3>
+                <p class="reviews-slider__subtitle">Организация</p>
+                <p class="reviews-slider__description">«Всем доброго времени суток! Не первый раз приобретаю мебель в этом магазине. Всем довольна: вежливый персонал, большой ассортимент мебели, услуги доставки и сборки мебели!»</p>
+            </div>
+            <div class="reviews-slider__flex">
+                <div class="reviews-slider__wrap">
+                </div>
+                <h3 class="reviews-slider__title">Юлия</h3>
+                <p class="reviews-slider__subtitle">Студентка</p>
+                <p class="reviews-slider__description">«Покупкой мебели довольна. Стенка очень хорошего качества. Покупку делала в магазине мебель Максима. Ко мне были внимательны выслушали мои пожелания, предложили скомбинировать две стенки в результате получилась большая 4 метровая, очень функциональная стенка. Красиво и бюджетно. Спасибо продавцам. Оформила рассрочку, там же в магазине. Доставили и собрали в течении двух недель. Всем довольна.»</p>
+            </div>
+            <div class="reviews-slider__flex">
+                <div class="reviews-slider__wrap">
+                </div>
+                <h3 class="reviews-slider__title">Дина</h3>
+                <p class="reviews-slider__subtitle">ИП</p>
+                <p class="reviews-slider__description">«Всё супер, быстро доставили, быстро собрали.Покупкой очень довольны.»</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="last-chance">
+    <div class="container">
+        <h2 class="last-chance__title">Последний шанс</h2>
+        <div class="backgroundpink"></div>
+        <div class="last-chance__slider">
+            <div class="last-chance__items">
+                <div class="last-chance__items-flex">
+                    <div class="last-chance__decor-hover"></div>
+                    <p class="last-chance__name">Стул "Карамель"</p>
+                    <p class="last-chance__price-sale">1950 &#8381;<span class="last-chance__price">2450 &#8381;</span></p>
+                    <div class="last-chance__img">
+                        <img src="https://img.freepik.com/free-psd/chair-pillow_176382-868.jpg?t=st=1716523338~exp=1716523938~hmac=cfe34fdbb1c9eea5a5b25a4edb51430cae6008f40834d955a48079c3fe177d98" >
+                    </div>
+                </div>
+                <a href="chair.html" <button class="last-chance__button">Купить</button></a>
+            </div>
+            <div class="last-chance__items">
+                <div class="last-chance__items-flex">
+                    <div class="last-chance__decor-hover"></div>
+                    <p class="last-chance__name">Кресло "Облако"</p>
+                    <p class="last-chance__price-sale">1999 &#8381;<span class="last-chance__price">2500 &#8381;</span></p>
+                    <div class="last-chance__img">
+                        <img src="img1/chair/13.jpeg">
+                    </div>
+                </div>
+                <a href="chair.html" <button class="last-chance__button">Купить</button></a>
+            </div>
+            <div class="last-chance__items">
+                <div class="last-chance__items-flex">
+                    <div class="last-chance__decor-hover"></div>
+                    <p class="last-chance__name">Стул "Сова"</p>
+                    <p class="last-chance__price-sale">2400 &#8381;<span class="last-chance__price">2600 &#8381;</span></p>
+                    <div class="last-chance__img">
+                        <img src="img1/chair/4.png">
+                    </div>
+                </div>
+                <a href="chair.html" <button class="last-chance__button">Купить</button></a>
+            </div>
+            <div class="last-chance__items">
+                <div class="last-chance__items-flex">
+                    <div class="last-chance__decor-hover"></div>
+                    <p class="last-chance__name">Кресло "Бежевый закат"</p>
+                    <p class="last-chance__price-sale">2800 &#8381;<span class="last-chance__price">3300 &#8381;</span></p>
+                    <div class="last-chance__img">
+                        <img src="https://img.freepik.com/free-psd/chair-pillow_176382-872.jpg?t=st=1716523338~exp=1716523938~hmac=0003bf25a2f9df40b95bff680023827b84edee0f63d1aa6cde5f1bd08798684b">
+                    </div>
+                </div>
+                <a href="chair.html" <button class="last-chance__button">Купить</button></a>
+            </div>
+            <div class="last-chance__items">
+                <div class="last-chance__items-flex">
+                    <div class="last-chance__decor-hover"></div>
+                    <p class="last-chance__name">Табурет "Голубая хвоя"</p>
+                    <p class="last-chance__price-sale">2800 &#8381;<span class="last-chance__price">3050 &#8381;</span></p>
+                    <div class="last-chance__img">
+                        <img src="img1/chair/11.png " alt="Стул Месси">
+                    </div>
+                </div>
+                <a href="chair.html" <button class="last-chance__button">Купить</button></a>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <a href="#" class="footer__logo">
+                    <img src="img1/Icon_logo.svg" alt="Callium">
+                </a>
+            </div>
+            <div class="footer__contact">
+                <div class="footer__contact-phone">
+                    <img src="img1/Icon_phone.svg" alt="">+7(906)8833466
+                </div>
+                <div class="footer__contact-email">
+                    <img src="img1/Icon_mail.svg" alt="">aegfggs@gmail.com
+                </div>
+            </div>
+            <div class="footer__license">
+                <p>© 2024 «maxs-furniture» — Сайт по продаже мебели. Все права не защищены.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js1/burger_menu/jquery-3.4.1.js"></script> 
+<script src="js1/burger_menu/script.js"></script>
+<script src="slick/js/jquery/dist/jquery.min.js"></script>
+<script src="slick/js/slick.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.products-slider').slick({
+    arrows: false, //стрелки
+    dots: true, // точки внизу слайдера
+    customPaging: (slider, i) => `<span>0${i+1}</span>`
+    });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.reviews-slider').slick({
+    arrows: true,
+    dots: true,
+    prevArrow: '<div class="slider-arrow slider-arrow__left"></div>',
+    nextArrow: '<div class="slider-arrow slider-arrow__right"></div>'
+    });
+});
+</script>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.last-chance__slider').slick({
+    arrows: false,
+    dots: false,
+    variableWidth: true,
+    slidesToShow: 5,
+    responsive: [
+        {
+            breakpoint: 1025,
+            settings: {
+                dots: true,
+                slidesToShow: 4
+            }
+        },
+        {
+            breakpoint: 769,
+            settings: {
+                dots: true,
+                slidesToShow: 3
+            }
+        }
+    ] 
+    });
+});
+</script>
+</body>
+</html>

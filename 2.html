@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="logo/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
+  <link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Венеция</title>
+</head>
+
+<body>
+	<!-- Меню -->
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="logo/logo.svg" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+          <li><a href="chair.html">Каталог</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="phone">
+					<a href="tel:+79068833466">&#9742; +7 (906) 883-34-66</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Страница одной двери -->
+  <div class="door-template">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-lg-12">
+          <div class="door-gallery">
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/15cd6a192320995.65d9bed2b1409.gif" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/15cd6a192320995.65d9bed2b1409.gif" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/3a1b9d192320995.65d9bed3ec01e.png" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_webp/3a1b9d192320995.65d9bed3ec01e.png" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/68f078192320995.65d9bed4b09ef.png" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/68f078192320995.65d9bed4b09ef.png" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/b288b6192320995.65d9bed3ecc96.png" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/b288b6192320995.65d9bed3ecc96.png" alt="название 1">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-12 door-description">
+          <h2>Венеция <span>Есть в наличии</span></h2>
+          <!-- <h2>Название <span>Под заказ</span></h2> -->
+          <p> Характеристики:<br>
+            Обивка: мягкая, бархатистая ткань с эффектом "антик". 
+            <br>Цвет:<br> мятный зелёный. Каркас: металл, окрашенный в шоколадный цвет. <br>Дополнительно:<br> декоративная подушка в комплекте. <br>Описание:<br>  Стул "Венеция" создан для максимального комфорта и расслабления. Мягкая обивка, приятный цвет и обтекаемая форма помогут создать уютную атмосферу в любом интерьере. 
+        </p>
+          <h3>7 990 &#8381;</h3>
+		  <form>
+              <input type="text" placeholder="Имя"><br>
+              <input type="text" placeholder="Телефон"><br>
+              <textarea placeholder="Комментарий"></textarea><br>
+              <button class="btn">Заказать замер</button>
+          </form>
+          
+  <script src="js/baguetteBox.min.js" async></script>
+  <script>
+    window.addEventListener('load', function() {
+      // Галерея
+      // Документация 
+      // https://github.com/feimosi/baguetteBox.js
+      // Инициализация
+      baguetteBox.run('.door-gallery');
+    })
+  </script>
+</body>
+
+</html>

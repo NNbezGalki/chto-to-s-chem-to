@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="logo/logo.svg" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Каталог</title>
+</head>
+
+<body>
+	<!-- Меню -->
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="logo/logo.svg" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="phone">
+					<a href="tel:+79068833466">&#9742; +7 (906) 883-34-66</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Каталог -->
+	<div class="popular" style="position: relative;">
+		<div class="container">
+			<div class="row popular-title">
+				<h2>Каталог</h2>
+			</div>
+			<div class="category-controll text-center">
+				<button class="btn" type="button" data-filter="all">Все</button>
+				<button class="btn" type="button" data-filter=".category1">Уют и комфорт</button>
+				<button class="btn" type="button" data-filter=".category2">Для дома и дачи</button>
+				<button class="btn" type="button" data-filter=".category3">Классика</button>
+			</div>
+			<div class="row popular-goods catalog">
+				<div class="col-3 col-lg-6 col-sm-12 product mix category1" data-order="7990">
+					<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/8e2f09196178947.661bd731eb92e.jpg" "Название">
+					<h3>Облако</h3>
+					<div>7 990 &#8381;</div>
+					<a href="1.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category2" data-order="12500">
+					<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200_webp/f1fb6e192320995.65d9bed2b092e.png" alt="Название">
+					<h3>Венеция</h3>
+					<div>12 500 &#8381;</div>
+					<a href="2.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category3" data-order="5490">
+					<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/508423195862893.66156faf791cd.png" alt="Название">
+					<h3>Эфир</h3>
+					<div>5 490 &#8381;</div>
+					<a href="3.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category2" data-order="9990">
+					<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/45bc18164252905.63f4257e34d32.jpg" alt="Название">
+					<h3>Сканди</h3>
+					<div>9 990 &#8381;</div>
+					<a href="4.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category2" data-order="14990">
+					<img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/b62424195643107.6611260b6ea82.jpeg" alt="Название">
+					<h3>Грация</h3>
+					<div>14 990 &#8381;</div>
+					<a href="5.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category3" data-order="6990">
+					<img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/4d07b8184887517.655ae6ab85c8d.jpg" alt="Название">
+					<h3>Кокон</h3>
+					<div>6 990 &#8381;</div>
+					<a href="6.html" class="btn">Подробнее</a>
+				</div>
+				<div class="col-3 col-lg-6 col-sm-12 product mix category1" data-order="19990">
+					<img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/1f39b8197312721.662e84a2a7142.jpg" alt="Название">
+					<h3>Орфей</h3>
+					<div>19 990 &#8381;</div>
+					<a href="7.html" class="btn">Подробнее</a>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <script src="js/mixitup.min.js"></script>
+  <script>
+    let mixer = mixitup('.popular-goods');
+  </script>
+</body>
+
+</html>

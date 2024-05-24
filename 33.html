@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="logo/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
+  <link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Книжный стол</title>
+</head>
+
+<body>
+	<!-- Меню -->
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="logo/logo.svg" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+          <li><a href="tables.html">Каталог</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="phone">
+					<a href="tel:+79068833466">&#9742; +7 (906) 883-34-66</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Страница одной двери -->
+  <div class="door-template">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-lg-12">
+          <div class="door-gallery">
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/5a468f161125035.63bfed814e9a1.jpg" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/5a468f161125035.63bfed814e9a1.jpg" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/4d99ad161125035.63bfed81dd9cb.jpg" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/4d99ad161125035.63bfed81dd9cb.jpg" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/85b39c161125035.63bfed814fbcf.jpg" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840_webp/85b39c161125035.63bfed814fbcf.jpg" alt="название 1">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-12 door-description">
+          <h2>Книжный стол <span>Есть в наличии</span></h2>
+          <!-- <h2>Название <span>Под заказ</span></h2> -->
+          <p><br> Этот элегантный книжный стол из массива дуба -  настоящая находка для любителей книг и ценителей  натуральных материалов. Прочная столешница  обеспечит достаточно места для размещения книг,  а также лампы и других предметов. Два выдвижных ящика  помогут поддерживать порядок,  а изысканный дизайн стола с  декоративными латунными вставками станет украшением кабинета или гостиной.<br>
+
+            <br> Размеры: 140 см (длина) x 70 см (ширина) x 78 см (высота)<br>
+            <br>Материал: Массив дуба, латунь<br>
+            <br> Цвет: Темный орех<br>
+            <br> Особенности:  Два выдвижных ящика с  мягким механизмом закрывания,  отверстие для проводов на задней панели<br>
+            
+        </p>
+          <h3>15 490 &#8381;</h3>
+		  <form>
+              <input type="text" placeholder="Имя"><br>
+              <input type="text" placeholder="Телефон"><br>
+              <textarea placeholder="Комментарий"></textarea><br>
+              <button class="btn">Заказать замер</button>
+          </form>
+          
+  <script src="js/baguetteBox.min.js" async></script>
+  <script>
+    window.addEventListener('load', function() {
+      // Галерея
+      // Документация 
+      // https://github.com/feimosi/baguetteBox.js
+      // Инициализация
+      baguetteBox.run('.door-gallery');
+    })
+  </script>
+</body>
+
+</html>

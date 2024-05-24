@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="logo/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
+  <link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Зефир</title>
+</head>
+
+<body>
+	<!-- Меню -->
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="logo/logo.svg" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+          <li><a href="chair.html">Каталог</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="phone">
+					<a href="tel:+79068833466">&#9742; +7 (906) 883-34-66</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Страница одной двери -->
+  <div class="door-template">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-lg-12">
+          <div class="door-gallery">
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/508423195862893.66156faf791cd.png" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/508423195862893.66156faf791cd.png" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/c94f1a195862893.66156faf78db6.png" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/c94f1a195862893.66156faf78db6.png" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/1400/d0f35e195862893.66156faf7959b.png" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/d0f35e195862893.66156faf7959b.png" alt="название 1">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-12 door-description">
+          <h2>Зефир <span>Есть в наличии</span></h2>
+          <!-- <h2>Название <span>Под заказ</span></h2> -->
+          <p>  Характеристики: <br>
+            <br> Обивка:<br>  вельвет насыщенного синего цвета 
+            <br> Каркас:<br> металл, окрашенный в золотой цвет
+            <br> Форма:<br> изящная, с изогнутой спинкой и тонкими ножками
+            <br> Дополнительно:<br> декоративная отделка стразами
+            <br> Описание:<br> Стул "Грация" -  это изысканный предмет мебели, который станет украшением любого интерьера.  Благородный цвет, блестящая отделка и утонченные формы подчеркнут  чувство стиля и роскоши. 
+        </p>
+          <h3>5 490 &#8381;</h3>
+		  <form>
+              <input type="text" placeholder="Имя"><br>
+              <input type="text" placeholder="Телефон"><br>
+              <textarea placeholder="Комментарий"></textarea><br>
+              <button class="btn">Заказать замер</button>
+          </form>
+          
+  <script src="js/baguetteBox.min.js" async></script>
+  <script>
+    window.addEventListener('load', function() {
+      // Галерея
+      // Документация 
+      // https://github.com/feimosi/baguetteBox.js
+      // Инициализация
+      baguetteBox.run('.door-gallery');
+    })
+  </script>
+</body>
+
+</html>

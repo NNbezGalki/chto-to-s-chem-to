@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Контакты</title>
+</head>
+
+<body>
+	<!-- Меню -->
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="logo/logo.svg" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+          			<li><a href="chair.html">Каталог</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="phone">
+					<a href="tel:+79068833466">&#9742; +7 (906) 883-34-66</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Контакты -->
+  <div class="our-contacts">
+    <div class="container">
+      <div class="row">
+        <div class="col-9 col-lg-12">
+          <div class="contacts-block">
+            <h2>Курган</h2>
+            <div class="contacts-inner">
+              <div class="contacts-card">
+                <img src="img/icons/envelope.png" alt="пишите">
+                <h3>Пишите</h3>
+                <p>aegfggs@gmail.com</p>
+              </div>
+              <div class="contacts-card">
+                <img src="img/icons/phone-call.png" alt="пишите">
+                <h3>Звоните</h3>
+                <p>+7 (906) 883-34-66</p>
+              </div>
+              <div class="contacts-card">
+                <img src="img/icons/distance.png" alt="пишите">
+                <h3>Приезжайте</h3>
+                <p>ул. Зорге 30</p>
+              </div>
+            </div>
+            <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/53/kurgan/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Курган</a><a href="https://yandex.ru/maps/53/kurgan/house/ulitsa_rikharda_zorge_30/YkwYdQZlQUAPQFtvfXhydXRgYA==/?indoorLevel=1&ll=65.315857%2C55.434834&utm_medium=mapframe&utm_source=maps&z=17" style="color:#eee;font-size:12px;position:absolute;top:14px;">Улица Рихарда Зорге, 30 на карте Кургана — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?indoorLevel=1&ll=65.315857%2C55.434834&mode=whatshere&whatshere%5Bpoint%5D=65.315858%2C55.434834&whatshere%5Bzoom%5D=17&z=17" width="100%" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+          </div>
+          
+        <div class="col-3 col-lg-12" id="cities">
+          <h2>Наши дилеры</h2>
+          <input type="text" class="search" placeholder="Поиск">
+          <ul class="list">
+            <li><p class="city">Анапа, Анапское шоссе 175а, магазин "Люкс". 8(918)463-39-89</p></li>
+            <li><p class="city">Анапа, ул. Ленина 14б, магазин "Вавилон". 8(918)642-98-97</p></li>
+            <li><p class="city">Адлер, ул. Авиационная 125А, ТЦ "Максимус" Салон магазин «Люкс». 8(988)233-02-08</p></li>
+            <li><p class="city">Геленджик, ул. Киевская, 15б, магазин «Портал». 8(938)422-22-78</p></li>
+            <li><p class="city">Грозный, ул. Исы Батыжева, ТЦ «ProGress Mall». 8(928)290-11-68, 8(928)020-83-60</p></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/list.min.js"></script>
+  <script>
+    // Документация
+    // https://listjs.com/
+    // Инициализация
+    let options = {
+      valueNames: ['city']
+    };
+
+    let userList = new List('cities', options);
+  </script>
+</body>
+
+</html>

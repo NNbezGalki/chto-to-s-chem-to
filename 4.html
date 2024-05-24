@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="logo/logo.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/sweetalert2.min.css">
+  <link rel="stylesheet" href="css/baguetteBox.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Сканди</title>
+</head>
+
+<body>
+	<!-- Меню -->
+	<div class="menu">
+		<div class="container">
+			<div class="row">
+				<div class="logo">
+					<a href="index.html">
+						<img src="logo/logo.svg" alt="логотип">
+					</a>
+				</div>
+				<ul>
+					<li><a href="index.html">Главная</a></li>
+          <li><a href="chair.html">Каталог</a></li>
+					<li><a href="about.html">О компании</a></li>
+					<li><a href="contacts.html">Контакты</a></li>
+				</ul>
+				<div class="phone">
+					<a href="tel:+79068833466">&#9742; +7 (906) 883-34-66</a>
+				</div>
+			</div>
+		</div>
+	</div>
+  <!-- Страница одной двери -->
+  <div class="door-template">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-lg-12">
+          <div class="door-gallery">
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/033cea164252905.63f3d7fd88348.jpg" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/033cea164252905.63f3d7fd88348.jpg" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/05200a164252905.63f3d7fd871fb.jpg" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/05200a164252905.63f3d7fd871fb.jpg" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/6591cc164252905.63f3e09995758.jpg" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/6591cc164252905.63f3e09995758.jpg" alt="название 1">
+            </a>
+            <a href="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/6de951164252905.63f3d7fd8b253.jpg" data-caption="краткое описание изображения 1">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_3840/6de951164252905.63f3d7fd8b253.jpg" alt="название 1">
+            </a>
+          </div>
+        </div>
+        <div class="col-6 col-lg-12 door-description">
+          <h2>Сканди <span>Есть в наличии</span></h2>
+          <!-- <h2>Название <span>Под заказ</span></h2> -->
+          <p>  Сканди - это кресло, дизайн которого был основан на традициях и ценностях, связанных с оливковыми деревьями.
+            Это кресло для отдыха было разработано для сельской местности, чтобы соединить пользователя с природой, как на открытом воздухе, так и в помещении.<br> Оно стремится к достижению символической цели, линии и формы были разработаны в соответствии с естественным обликом деревьев, чтобы соединить природные ценности с функциональными аспектами кресла.
+        </p>
+          <h3>9 990 &#8381;</h3>
+		  <form>
+              <input type="text" placeholder="Имя"><br>
+              <input type="text" placeholder="Телефон"><br>
+              <textarea placeholder="Комментарий"></textarea><br>
+              <button class="btn">Заказать замер</button>
+          </form>
+          
+  <script src="js/baguetteBox.min.js" async></script>
+  <script>
+    window.addEventListener('load', function() {
+      // Галерея
+      // Документация 
+      // https://github.com/feimosi/baguetteBox.js
+      // Инициализация
+      baguetteBox.run('.door-gallery');
+    })
+  </script>
+</body>
+
+</html>
